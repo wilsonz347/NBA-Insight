@@ -39,9 +39,6 @@ coverage/
 db.sqlite3
 *.db
 
-# Jupyter Notebooks
-*.ipynb
-
 # Docker
 Dockerfile*
 docker-compose.yml
