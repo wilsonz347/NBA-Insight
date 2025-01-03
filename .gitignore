@@ -1,0 +1,48 @@
+node_modules
+
+# General
+.DS_Store
+.idea/
+.vscode/
+*.pyc
+*.swp
+*~
+
+# Python-specific
+__pycache__/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local configuration
+.env
+.env.*
+config.ini
+settings.py
+secrets.yml
+
+# IDE-specific
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+coverage/
+
+# Logs
+*.log
+*.err
+
+# Database files
+db.sqlite3
+*.db
+
+# Jupyter Notebooks
+*.ipynb
+
+# Docker
+Dockerfile*
+docker-compose.yml
+docker-compose.override.yml
